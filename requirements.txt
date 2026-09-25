@@ -1,0 +1,10 @@
+streamlit
+sqlalchemy
+pymysql
+pandas
+numpy
+plotly
+folium
+streamlit-folium
+ortools
+python-dotenv
