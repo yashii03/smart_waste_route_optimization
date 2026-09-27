@@ -6,11 +6,11 @@ from sqlalchemy import create_engine
 load_dotenv()
 
 # Read database settings
-DB_HOST = os.getenv("localhost")
-DB_PORT = os.getenv("3360")
-DB_NAME = os.getenv("smart_waste_db")
-DB_USER = os.getenv("root")
-DB_PASSWORD = os.getenv("123456")
+DB_HOST = os.getenv("DB_HOST")
+DB_PORT = os.getenv("DB_PORT")
+DB_NAME = os.getenv("DB_NAME")
+DB_USER = os.getenv("DB_USER")
+DB_PASSWORD = os.getenv("DB_PASSWORD")
 
 # Create MySQL connection URL
 DATABASE_URL = (
